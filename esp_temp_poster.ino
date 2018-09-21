@@ -1,14 +1,13 @@
 #include <ESP8266HTTPClient.h>
 #include <ESP8266WiFi.h>
-#include "DHT.h"
+#include <DHT.h>
+
+int ident = 1;
 
 #define DHTPIN 12     // what digital pin we're connected to
 #define DHTTYPE DHT11   // DHT 11 Temp & Humidity sensor
 
 DHT dht(DHTPIN, DHTTYPE);
-
-boolean LED_state;
-int ident = 1;
 
 void setup() {
   pinMode(2, OUTPUT);           // set pin to input
