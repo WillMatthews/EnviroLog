@@ -2,7 +2,7 @@
 #include <ESP8266WiFi.h>
 #include "DHT.h"
 
-#define DHTPIN 12     // what digital pin we're connected to
+#define DHTPIN 12       // what digital pin we're connecting our temp sensor to
 #define DHTTYPE DHT11   // DHT 11 Temp & Humidity sensor
 
 DHT dht(DHTPIN, DHTTYPE);
