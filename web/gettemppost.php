@@ -1,7 +1,7 @@
 <?php
 //database settings
 $database = "DATABASE NAME"
-$db_with_coll = $database + "." + "COLLECTION NAME"
+$db_with_coll = $database . "." . "COLLECTION NAME"
 
 
 //end database settings
