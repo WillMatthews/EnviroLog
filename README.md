@@ -3,7 +3,7 @@
 ## Status:
 Project is in active development. Hardware is in prototype stage, and is not finalised.
 
-Web server files are far from unfinished, some rough draft work has been produced so far as a proof of concept.
+Web server files are far from finished, some rough draft work has been produced so far as a proof of concept.
 
 ## Todos:
 * Centralised config file.
