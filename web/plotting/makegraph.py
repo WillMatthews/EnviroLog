@@ -11,7 +11,7 @@ client = MongoClient('localhost', 27017)
 
 db = client.DB-NAME             # SET THIS WITH YOUR DATABASE NAME
 posts = db.COLLECTION-NAME      # SET THIS WITH YOUR COLLECTION NAME
-posts_out = posts.find({'ident': '1'})  # SENSOR TO PLOT
+posts_out = posts.find({'ident': '1'})  # SENSOR IDENT VAL TO PLOT
 
 temps = []
 times = []
