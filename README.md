@@ -1,13 +1,18 @@
 # EnviroLog - An ESP8266 based data logging system.
 
 ## Status:
-Project is in active development. Hardware is in prototype stage, and is not finalised.
+Project is in development. Hardware is in prototype stage, and is not finalised.
+This is a *minimum viable product* which logs data to a MongoDB database and creates a html plot.
 
 Web server files are far from finished, some rough draft work has been produced so far as a proof of concept.
 
 ## Todos:
-* Centralised config file.
+* Centralised config file
 * Deploy script for server
+* Websockets to update live data
+* Easily manipulated plots (JS?)
+* Log more conditions?
+
 
 ## Installation:
 
